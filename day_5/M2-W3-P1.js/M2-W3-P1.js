@@ -12,13 +12,13 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
+/* WRITE YOUR ANSWER HERE */
+
 function area (l1, l2) {
     return ('The area of the retangle is: ' + l1 * l2 + 'cm. sq.')
 }
 
 console.log(area(4, 5))
-
-/* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
@@ -27,6 +27,16 @@ console.log(area(4, 5))
 
 /* WRITE YOUR ANSWER HERE */
 
+function crazySum(int1, int2) {
+    let sum = int1 + int2
+    if(int1 === int2) {
+        return sum * 3
+    }
+
+    return sum
+}
+
+console.log(crazySum(2, 8))
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
  It should return triple their absolute difference if the given number is greater than 19.
