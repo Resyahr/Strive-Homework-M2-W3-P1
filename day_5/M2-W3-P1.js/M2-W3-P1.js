@@ -99,6 +99,18 @@ console.log(strivify("Rhayser"))
 
 /* WRITE YOUR ANSWER HERE */
 
+const check3and7 = (n) => {
+    if (n % 3 === 0) {
+        return (`${n} is multiple of 3`)
+    } else if (n % 5 === 0) {
+        return (`${n} is multiple of 5`)
+    }
+
+    return (`${n} is not multiple of 3 or 5`)
+}
+
+console.log(check3and7(20))
+
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
 */
