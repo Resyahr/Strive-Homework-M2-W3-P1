@@ -71,7 +71,7 @@ const boundary = (n) => {
     return false
 }
 
-console.log(boundary(100))
+console.log(boundary(400))
 
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
@@ -79,6 +79,18 @@ console.log(boundary(100))
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+const strivify = (string) => {
+    const word = "Strive"
+
+    if (string.startsWith(word)) {
+        return string
+    }
+ 
+    return (word + " " + string)
+}
+
+console.log(strivify("Rhayser"))
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
