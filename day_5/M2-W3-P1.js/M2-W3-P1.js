@@ -129,11 +129,24 @@ console.log(reverseString("Hello world"))
 
 /* WRITE YOUR ANSWER HERE */
 
+const upperFirst = (string) => {
+    let word = string.split(' ')
+    
+    for (let i = 0; i < word.length; i++) {
+        word[i] = word[i].charAt(0).toUpperCase() + word[i].slice(1)
+    }
+    return word.join(" ")
+}
+
+console.log(upperFirst('hellow world'))
+
 /* EXERCISE 9
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
