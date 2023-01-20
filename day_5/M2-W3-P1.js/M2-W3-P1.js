@@ -146,7 +146,11 @@ console.log(upperFirst('hellow world'))
 
 /* WRITE YOUR ANSWER HERE */
 
+const cutString = (string) => {
+    return string.slice(1, -1)
+}
 
+console.log(cutString('hellow world'))
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
