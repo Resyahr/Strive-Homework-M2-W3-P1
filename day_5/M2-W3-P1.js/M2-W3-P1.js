@@ -158,6 +158,17 @@ console.log(cutString('hellow world'))
 
 /* WRITE YOUR ANSWER HERE */
 
+const giveMeRandom = (n) => {
+    const arr = []
+    
+    for (let i = 0; i < n; i++) {
+        let ranNum = Math.floor(Math.random() * 11)
+        arr.push(ranNum)
+    }
+    return arr
+}
+
+console.log(giveMeRandom(90))
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
 */
