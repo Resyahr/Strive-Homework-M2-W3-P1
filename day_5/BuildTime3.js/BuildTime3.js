@@ -9,7 +9,7 @@ Details:    Today we will analyze a very common problem: building search algorit
             Example: 
                 job 1:  location: "NY, US",     position: "java dev"
                 job 2:  location: "Genoa, IT"   position: "web dev"
-                job 3:  location: "US"      position: "dev"
+                job 3:  location: "US"          position: "dev"
 
                 if our query was job position = "dev" and location = "US", we should only get job 1 and job 3, which adhere to BOTH the
                 criteria. Job 2 does not match the location param and so we exclude it
@@ -828,5 +828,28 @@ const jobs = [
 ];
 //DO NOT TOUCH THE ARRAY ABOVE!
 
- 
+//Start algorithm
+function filterSe
 
+
+/*
+Details:    Your job is to write an algorithm that will search by job position AND geographic location. 
+            Make sure your algorithm searches by BOTH job position and location, but not by searching for identical records.
+            Example: 
+                job 1:  location: "NY, US",     position: "java dev"
+                job 2:  location: "Genoa, IT"   position: "web dev"
+                job 3:  location: "US"          position: "dev"
+
+                if our query was job position = "dev" and location = "US", we should only get job 1 and job 3, which adhere to BOTH the
+                criteria. Job 2 does not match the location param and so we exclude it
+            !REQUIREMENTS! 
+                Make sure your query is case insensitive,
+                Your boss wants you to delete the "description", "requirements", "benefits" and "company_profile" 
+                    fields from the results as to avoid visual clutter.
+                You should return also the amount of results, like this: 
+                {
+                    result: [], <<<< here will be the jobs
+                    count: 0 <<<< here will be the number or results
+                }
+                
+*/
